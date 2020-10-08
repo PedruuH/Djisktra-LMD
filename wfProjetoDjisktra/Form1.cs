@@ -87,7 +87,7 @@ namespace wfProjetoDjisktra
             caminhos[42] = new Path(Centralina, Itumbiara, 20);
             caminhos[43] = new Path(Itumbiara, Centralina, 20);
 
-            switch (cb_partida.SelectedIndex)
+            switch (cbGrupiara.SelectedIndex)
                 {
                     case 0:
                         partida = Araguari;
@@ -288,10 +288,53 @@ namespace wfProjetoDjisktra
         private void plotCamino(string caminho)
         {
                 switch (caminho)
-                { 
+                {
+                    case "Araguari":
+                        pbAraguari.Visible = true;
+                        break;
+                    case "Capinópolis":
+                        pbCapinopolis.Visible = true;
+                        break;
+                    case "Cascalho Rico":
+                        pbCascalhoRico.Visible = true;
+                        break;
+                    case "Centralina":
+                        pbCentralina.Visible = true;
+                        break;
+                    case "Douradinhos":
+                        pbDouradinhos.Visible = true;
+                        break;
+                    case "Estrela do Sul":
+                        pbEstreladoSul.Visible = true;
+                        break;
+                    case "Grupiara":
+                        pbGrupiara.Visible = true;
+                        break;
+                    case "Indianópolis":
+                        pbIndianopolis.Visible = true;
+                        break;
+                    case "Ituiutaba":
+                        pbItuiutaba.Visible = true;
+                        break;
+                    case "Itumbiara":
+                        pbItumbiara.Visible = true;
+                        break;
+                    case "Monte Alegre de Minas":
+                        pbMonteAlegre.Visible = true;
+                        break;
+                    case "Romaria":
+                        pbRomaria.Visible = true;
+                        break;
+                    case "São Juliana":
+                        pbSaoJuliana.Visible = true;
+                        break;
+                    case "Tupaciguara":
+                        pbTupaciguara.Visible = true;
+                        break;
                     case "Uberlândia":
                         pbUberlandia.Visible = true;
                         break;
+
                 }
             
                         
@@ -299,6 +342,21 @@ namespace wfProjetoDjisktra
         private void ResetPath()
         {
             pbUberlandia.Visible = false;
+            pbAraguari.Visible = false;
+            pbTupaciguara.Visible = false;
+            pbSaoJuliana.Visible = false;
+            pbRomaria.Visible = false;
+            pbMonteAlegre.Visible = false;
+            pbItumbiara.Visible = false;
+            pbItuiutaba.Visible = false;
+            pbIndianopolis.Visible = false;
+            pbGrupiara.Visible = false;
+            pbEstreladoSul.Visible = false;
+            pbDouradinhos.Visible = false;
+            pbCentralina.Visible = false;
+            pbCascalhoRico.Visible = false;
+            pbCapinopolis.Visible = false;
+
         }
 
         
