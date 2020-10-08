@@ -272,7 +272,15 @@ namespace wfProjetoDjisktra
 
                 }
                 MessageBox.Show("Rota percorrida: " + string.Join(", ", finalPathStrings) + "\nTotal caminhado: " + totalWeight.ToString());
-                plotCamino(finalPathStrings);
+                for (int i = 0; i < finalPathStrings.Count(); i++)
+                {
+                    switch (finalPathStrings[i])
+                    {
+                        case "Uberlândia":
+                            pbUberlandia.Visible = true;
+                            break;
+                    }
+                }
             }
             catch (IndexOutOfRangeException)
             {
@@ -282,6 +290,18 @@ namespace wfProjetoDjisktra
             }
 
         }
-        private void plotCamino(string[] caminho) { }
+        private void plotCamino(string[] caminho)
+        {
+            for (int i = 0; i <= caminho.Count(); i++)
+            {
+                switch (caminho[i])
+                { 
+                    case "Uberlândia":
+                        pbUberlandia.Visible = true;
+                        break;
+                }
+            }
+                        
+        }
     }
 }

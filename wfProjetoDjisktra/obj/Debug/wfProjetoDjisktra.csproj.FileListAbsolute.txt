@@ -19,3 +19,9 @@ C:\Users\pedro\OneDrive\Faculdade\2020-3\Lógica e matemática discreta\Projeto 
 C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\bin\Debug\wfProjetoDjisktra.exe.config
 C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\obj\Debug\wfProjetoDjisktra.exe
 C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\obj\Debug\wfProjetoDjisktra.pdb
+C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\bin\Debug\wfProjetoDjisktra.exe
+C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\bin\Debug\wfProjetoDjisktra.pdb
+C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\obj\Debug\wfProjetoDjisktra.csprojResolveAssemblyReference.cache
+C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\obj\Debug\wfProjetoDjisktra.Form1.resources
+C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\obj\Debug\wfProjetoDjisktra.Properties.Resources.resources
+C:\Users\pedro\Desktop\Djisktra-LMD\wfProjetoDjisktra\obj\Debug\wfProjetoDjisktra.csproj.GenerateResource.Cache
