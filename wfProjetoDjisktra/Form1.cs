@@ -224,10 +224,10 @@ namespace wfProjetoDjisktra
         {
             try
             {
-                Node currentNode = end;
+                Node nóAtual = end;
                 bool op = true;
                 List<Node> finalPath = new List<Node>();
-                finalPath.Add(currentNode);
+                finalPath.Add(nóAtual);
                 int totalWeight = 0;
 
                 while (op)
@@ -238,13 +238,13 @@ namespace wfProjetoDjisktra
                     while (!found)
                     {
                         Path currentPath = paths[pathCount];
-                        if (currentPath.nóDestino == currentNode)
+                        if (currentPath.nóDestino == nóAtual)
                         {
-                            if (currentNode.vtrabalho - currentPath.pesoCaminho == currentPath.nóOrigem.vtrabalho)
+                            if (nóAtual.vtrabalho - currentPath.pesoCaminho == currentPath.nóOrigem.vtrabalho)
                             {
                                 finalPath.Add(currentPath.nóOrigem);
                                 totalWeight += currentPath.pesoCaminho;
-                                currentNode = currentPath.nóOrigem;
+                                nóAtual = currentPath.nóOrigem;
                                 found = true;
                             }
                             else
@@ -257,7 +257,7 @@ namespace wfProjetoDjisktra
                             pathCount++;
                         }
                     }
-                    if (currentNode == start)
+                    if (nóAtual == start)
                     {
                         op = false;
                     }
@@ -279,9 +279,7 @@ namespace wfProjetoDjisktra
             }
             catch (IndexOutOfRangeException)
             {
-                MessageBox.Show("Escolha o caminho de partida e destino distintos");
-                
-
+                MessageBox.Show("Escolha o caminho de partida e destino distintos");              
             }
 
         }
