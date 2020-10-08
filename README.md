@@ -2,19 +2,19 @@
 ======
 
 
-Introdução
+### Introdução
 ----
 Tarefa de Programação referente à matéria de LMD (Lógica e Matemática Discreta), imlementando o famoso [Algoritimo de Djisktra](https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra).
 Projeto realizado e compilado utilizando o Microsoft Visual Studio Professional 2012 - Version 11.0.61219.00 Update 5.
 
-Executar
+### Executar
 ---
 Basta apenas abrir com a IDE Visual Studio ou acessar o caminho:
 ```
 ~\wfProjetoDjisktra\bin\Debug\wfProjetoDjisktra.exe
 ```
 
-Windows Forms
+### Windows Forms
 
 Ao abrir irá se deparar com a seguinte interface:
 ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/inicialProgram.PNG?raw=true)
@@ -24,7 +24,7 @@ Após selecionar o caminho de Origem e Destino e clicar em GO:
 ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/FinalPath.PNG?raw=true)
 
 
-Licensing
+# Licensing
 ----
 Copyright 2020 Pedro Henrique R M Santos.
 
