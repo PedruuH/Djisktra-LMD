@@ -23,7 +23,7 @@ Após selecionar o caminho de Origem e Destino e clicar em GO:
 ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/FinalPath.PNG?raw=true)
 
 ---
-O caminho percorrido é demarcado pelo simbolo ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/check.png?raw=true)
+O caminho percorrido é demarcado pelo simbolo ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/check_.png?raw=true)
 
 
 # Licensing
