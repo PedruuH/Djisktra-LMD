@@ -113,6 +113,7 @@
             this.cb_partida.Name = "cb_partida";
             this.cb_partida.Size = new System.Drawing.Size(121, 21);
             this.cb_partida.TabIndex = 3;
+            
             // 
             // cb_destino
             // 

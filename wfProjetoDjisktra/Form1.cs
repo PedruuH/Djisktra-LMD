@@ -269,39 +269,39 @@ namespace wfProjetoDjisktra
                 for (int n = 0; n < finalPath.Count; n++)
                 {
                     finalPathStrings[n] = finalPath[n].nome;
+                    plotCamino(finalPath[n].nome);
+                    
 
                 }
                 MessageBox.Show("Rota percorrida: " + string.Join(", ", finalPathStrings) + "\nTotal caminhado: " + totalWeight.ToString());
-                for (int i = 0; i < finalPathStrings.Count(); i++)
-                {
-                    switch (finalPathStrings[i])
-                    {
-                        case "Uberlândia":
-                            pbUberlandia.Visible = true;
-                            break;
-                    }
-                }
+                ResetPath();
+                
             }
             catch (IndexOutOfRangeException)
             {
                 MessageBox.Show("Escolha o caminho de partida e destino distintos");
-
+                
 
             }
 
         }
-        private void plotCamino(string[] caminho)
+        private void plotCamino(string caminho)
         {
-            for (int i = 0; i <= caminho.Count(); i++)
-            {
-                switch (caminho[i])
+                switch (caminho)
                 { 
                     case "Uberlândia":
                         pbUberlandia.Visible = true;
                         break;
                 }
-            }
+            
                         
         }
+        private void ResetPath()
+        {
+            pbUberlandia.Visible = false;
+        }
+
+        
+
     }
 }
