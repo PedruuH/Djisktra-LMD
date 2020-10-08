@@ -22,6 +22,9 @@ Ao abrir irá se deparar com a seguinte interface:
 Após selecionar o caminho de Origem e Destino e clicar em GO:
 ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/FinalPath.PNG?raw=true)
 
+---
+O caminho percorrido é demarcado pelo simbolo ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/check.png?raw=true)
+
 
 # Licensing
 Copyright 2020 Pedro Henrique R M Santos.
