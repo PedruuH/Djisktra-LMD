@@ -1,5 +1,5 @@
-# Djisktra LMD
-
+# Djisktra LMD 
+![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/icon.ico?raw=true)
 ### Introdução
 
 Tarefa de Programação referente à matéria de LMD (Lógica e Matemática Discreta), imlementando o famoso [Algoritimo de Djisktra](https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra).
