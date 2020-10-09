@@ -3,7 +3,6 @@
 ### Introdução
 
 Tarefa de Programação referente à matéria de LMD (Lógica e Matemática Discreta), imlementando o famoso [Algoritimo de Djisktra](https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra).
-
 Projeto realizado e compilado utilizando o Microsoft Visual Studio Professional 2012 - Version 11.0.61219.00 Update 5.
 
 ### Executar
@@ -23,7 +22,7 @@ Após selecionar o caminho de Origem e Destino e clicar em GO:
 ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/FinalPath.PNG?raw=true)
 
 ---
-O caminho percorrido é demarcado pelo simbolo 
+O caminho percorrido é demarcado pelo simbolo
 ![alt text](https://github.com/PedruuH/Djisktra-LMD/blob/main/Images/check_.png?raw=true)
 
 
